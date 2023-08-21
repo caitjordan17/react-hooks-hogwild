@@ -53,7 +53,7 @@ body {
   font-size: 1.5em;
 }
 
-.achievementText {
+/* .achievementText {
   color: purple;
 }
 
@@ -76,43 +76,45 @@ ul {
 
 .indexWrapper {
   margin: auto;
-}
+} */
 
 
 .pigTile {
   display: inline;
+  background-color: #FBB;
   background-repeat: no-repeat;
   background-position: center 90%;
   float: left;
   margin: 2%;
   padding: 1%;
-  outline: #3B0B0B dotted thick;
+  outline: white solid 5px;
   transition: 0.75s;
   opacity: 1;
+  border-radius: 15px;
 }
 
-.minBackgroundSneak {
+/* .minBackgroundSneak {
   position: absolute;
   width: inherit;
   height: inherit;
   background-size: cover;
   z-index: -3;
-}
+} */
 
-.maxBackgroundSneak {
+/* .maxBackgroundSneak {
   position: absolute;
   width: inherit;
   height: inherit;
   background-size: cover;
   z-index: -3;
   opacity: 0.75;
-}
+} */
 
 .pigTile h3 {
-  color: #FBB;
+  color: #3B0B0B;
 }
 
-.minPigTile {
+/* .minPigTile {
   width: 250px;
   height: 250px;
   background-size: cover;
@@ -122,7 +124,7 @@ ul {
   background-size: cover;
   width: 500px;
   height: 500px;
-}
+} */
 
 .pigTile:hover {
   transform: scale(1.05);
@@ -135,11 +137,16 @@ ul {
   transition: all .2s ease-in-out;
 }
 
-.footer {
+/* .footer {
   padding: 1%;
   clear: both;
-}
+} */
 
+.porkers{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 @keyframes App-logo-spin {
   from {
